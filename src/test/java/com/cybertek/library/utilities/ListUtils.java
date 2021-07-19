@@ -7,8 +7,6 @@ import java.util.List;
 
 public class ListUtils {
 
-
-
     public static List<String> getTextOfElement(List<WebElement> list){
         List<String> elementsText = new ArrayList<>();
         for (WebElement elements : list) {
