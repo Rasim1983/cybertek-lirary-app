@@ -117,5 +117,14 @@ public class Login_StepDefinitions {
     }
 
 
+    @Then("account holder name should be {string}")
+    public void accountHolderNameShouldBe(String expectedAccountUserName) {
+        String actualAccountUserName = landingPage.accountUserName.getText();
 
+        Assert.assertEquals(actualAccountUserName,expectedAccountUserName);
+
+
+        Driver.closeDriver();
+
+    }
 }

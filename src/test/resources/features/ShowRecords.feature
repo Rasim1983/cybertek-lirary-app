@@ -1,6 +1,6 @@
 Feature: Show Records
 
-  @wip
+
   Scenario: verify default values in Users page
     Given I am on the login page
     When I login as a librarian

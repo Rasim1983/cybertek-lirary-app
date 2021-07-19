@@ -20,4 +20,6 @@ public class LandingPage {
     public WebElement booksLink;
     @FindBy(xpath = "//span[.='Dashboard']")
     public WebElement dashboardLink;
+    @FindBy(xpath = "//a[@id='navbarDropdown']/span")
+    public WebElement accountUserName;
 }
