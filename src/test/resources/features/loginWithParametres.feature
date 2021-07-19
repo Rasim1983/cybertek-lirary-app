@@ -19,7 +19,7 @@ Feature: Login with parameters
     And click the sign in button
     Then  books should be displayed
 
-  @wip
+
   Scenario: Login as librarian same line
     Given I am on the login page
     When I login using "librarian13@library"and "9rf6axdD"

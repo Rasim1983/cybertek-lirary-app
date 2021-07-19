@@ -109,4 +109,12 @@ public class Login_StepDefinitions {
         loginPage.signIn.click();
 
     }
+
+    @And("I click on {string}link")
+    public void iClickOnLink(String arg0) {
+        landingPage.usersLink.click();
+
+    }
+
+
 }

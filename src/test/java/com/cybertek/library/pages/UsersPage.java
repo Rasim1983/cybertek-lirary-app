@@ -5,15 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LandingPage {
+import java.util.List;
 
-    public LandingPage(){
+public class UsersPage {
+
+    public UsersPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-
-    @FindBy(id = "user_count")
-    public WebElement userCount;
-
-    @FindBy(xpath = "//span[.='Users']")
-    public WebElement usersLink;
+    @FindBy(xpath = "//th")
+    public List<WebElement> tableHeaders;
 }
