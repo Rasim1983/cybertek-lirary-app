@@ -1,4 +1,4 @@
-package com.cybertekLibrary.runner;
+package com.cybertek.library.runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         features = "src/test/resources/features",
-        glue = "com/cybertekLibrary/step_Definitions",
-        dryRun = true
+        glue = "com/cybertek/library/step_Definitions",
+        tags = "@wip"
 
 )
 

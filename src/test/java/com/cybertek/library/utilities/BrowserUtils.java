@@ -1,4 +1,4 @@
-package com.cybertekLibrary.utilities;
+package com.cybertek.library.utilities;
 
 public class BrowserUtils {
     /*
