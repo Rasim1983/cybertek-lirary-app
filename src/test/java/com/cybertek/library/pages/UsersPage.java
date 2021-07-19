@@ -14,4 +14,7 @@ public class UsersPage {
     }
     @FindBy(xpath = "//th")
     public List<WebElement> tableHeaders;
+
+    @FindBy(name = "tbl_users_length")
+    public WebElement showRecDropdown;
 }

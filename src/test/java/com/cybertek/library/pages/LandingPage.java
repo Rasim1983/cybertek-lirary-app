@@ -16,4 +16,8 @@ public class LandingPage {
 
     @FindBy(xpath = "//span[.='Users']")
     public WebElement usersLink;
+    @FindBy(xpath = "//span[.='Books']")
+    public WebElement booksLink;
+    @FindBy(xpath = "//span[.='Dashboard']")
+    public WebElement dashboardLink;
 }
